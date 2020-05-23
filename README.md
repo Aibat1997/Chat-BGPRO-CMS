@@ -21,7 +21,7 @@ If you work on server!!!
 2)chek redis is-running (sudo service redis-server status)
 3)npm install -g laravel-echo-server
 4)sudo apt-get install supervisor
-5)upload file queue-echo-server.conf to /etc/supervisor/conf.d/
+5)upload file (this directory) queue-echo-server.conf to /etc/supervisor/conf.d/
 6)in queue-echo-server.conf change path of command (6,16 line) to your project path
 7)in queue-echo-server.conf change path of stdout_logfile (12,22 line) to your project path
 8)sudo supervisorctl reread
