@@ -27,6 +27,12 @@ If you work on server!!!
 8)sudo supervisorctl reread
 9)sudo supervisorctl update
 10)sudo supervisorctl start workers:*
+
+If the server already uses this technology on a another website!!!
+1)change port of laravel-echo-server in (laravel-echo-server.json and bootstrap.js)
+2)change prefix of redis in (.env and laravel-echo-server.json)
+3)restart laravel-echo-server
+
 ```
 
 ## Excel
