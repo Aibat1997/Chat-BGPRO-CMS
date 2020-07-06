@@ -139,4 +139,11 @@ class Helpers
 
         return $result;
     }
+
+    public static function shortDescription($text, $max)
+    {
+        $text_no_tags = strip_tags($text);
+        $short_text = mb_strcut($text_no_tags, 0, $max) . '...';
+        return $short_text;
+    }
 }
